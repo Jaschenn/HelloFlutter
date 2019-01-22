@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'category_route.dart';
 
 class HelloRectangleBody extends StatelessWidget {
   @override
@@ -37,6 +38,7 @@ class HelloRectangleDrawer extends StatelessWidget {
             title: Text('首页'),
             onTap: () {
               //update the app state
+              
             },
           ),
           ListTile(
@@ -55,12 +57,6 @@ class HelloRectangleDrawer extends StatelessWidget {
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Scaffold(
-      appBar: AppBar(
-        title: Text('app bar'),
-      ),
-      body: HelloRectangleBody(),
-      drawer: HelloRectangleDrawer(),
-    ),
+    home: CategoryRoute(),
   ));
 }
