@@ -6,7 +6,7 @@ class HelloRectangleBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        color: Colors.green,
+        color: Colors.pink,
         height: 400.0,
         width: 300.0,
         child: Center(
